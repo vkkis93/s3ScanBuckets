@@ -1,4 +1,4 @@
-s3buckets-permissions
+s3ScanBuckets
 ======
 
 It's script which gets buckets from your aws account and their permissions(ACL) and writes this information into pdf
