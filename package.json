@@ -1,0 +1,20 @@
+{
+    "name": "s3buckets-permissions",
+    "version": "1.0.0",
+    "description": "it's script which get buckets from aws account and their permissions(ACL) and writes this information into pdf",
+    "main": "index.js",
+    "scripts": {
+        "start": "node -e 'require(\"./index\").init()'"
+    },
+    "keywords": [
+        "s3", "aws", "aws-sdk", "grantee", "permissions", "report"
+    ],
+    "author": "viktor.kis <vkkis1993@gmail.com>",
+    "license": "ISC",
+    "dependencies": {
+        "aws-sdk": "^2.6.15",
+        "bluebird": "^3.4.6",
+        "lodash": "^4.16.6",
+        "pdfkit": "^0.8.0"
+    }
+}
