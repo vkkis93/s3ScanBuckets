@@ -1,7 +1,7 @@
 s3ScanBuckets
 ======
 
-It's script which gets buckets from your aws account and their permissions(ACL) and writes this information into pdf
+It's script which get all buckets from your aws account and their permissions(ACL) and writes this information into pdf
 
 Usage
 =====
@@ -13,9 +13,9 @@ And after those steps - run command which below:
 ====
     npm start
 
-When scipt will be finished - in your current directory you will file **s3ACL.pdf**
+When execution will be finished - in your current directory you will see the file **s3ACL.pdf**
 
 Requirements
 ============
 
-Node.js 4.4 or newest
+Node.js 4.3 or newer
